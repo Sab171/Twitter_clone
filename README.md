@@ -1,7 +1,7 @@
 # Twitter clone
 
 This repo is a twitter clone I decided to build as practice.
-I followed freeCodeCamp.org latest tutorial but choose to use React with the mantine library.
+I am following freeCodeCamp.org latest tutorial but choose to use React with the mantine library.
 
 ## Licenses
 
