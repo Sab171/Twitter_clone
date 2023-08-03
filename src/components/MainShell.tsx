@@ -1,7 +1,9 @@
 import { AppShell } from "@mantine/core";
 import MainHeader from "./MainHeader";
 import MainFooter from "./MainFooter";
+import LeftNavbar from "./LeftNavbar";
 import { ReactNode } from "react";
+import RightNavbar from "./RightNavbar";
 
 export default function MainShell({ children }: { children: ReactNode }) {
   return (
@@ -10,6 +12,8 @@ export default function MainShell({ children }: { children: ReactNode }) {
       hidden={false}
       header={<MainHeader />}
       footer={<MainFooter />}
+      navbar={<LeftNavbar />}
+      aside={<RightNavbar />}
     >
       {children}
     </AppShell>

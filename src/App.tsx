@@ -1,6 +1,5 @@
 import { Center } from "@mantine/core";
 import MainShell from "./components/MainShell";
-import "./App.css";
 
 function App() {
   return (
